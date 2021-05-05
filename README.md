@@ -1,17 +1,15 @@
-# Codingly.io: Base Serverless Framework Template
+## Serverless Framework Bootcamp - Node.js, AWS & Microservices
 
-https://codingly.io
+I am working through the 
+[Serverless Framework Bootcamp](https://www.udemy.com/course/serverless-framework/) on Udemy to learn how to develop reliable and scalable back-end applications using Serverless Framework and following the microservices architecture.
 
-## What's included
-* Folder structure used consistently across our projects.
-* [serverless-pseudo-parameters plugin](https://www.npmjs.com/package/serverless-pseudo-parameters): Allows you to take advantage of CloudFormation Pseudo Parameters.
-* [serverless-bundle plugin](https://www.npmjs.com/package/serverless-pseudo-parameters): Bundler based on the serverless-webpack plugin - requires zero configuration and fully compatible with ES6/ES7 features.
-
-## Getting started
-```
-sls create --name YOUR_PROJECT_NAME --template-url https://github.com/codingly-io/sls-base
-cd YOUR_PROJECT_NAME
-npm install
-```
-
-You are ready to go!
+Topics covered:
+- Serverless Framework
+- Microservices Architecture
+- Authentication and Authorization in Microservices 
+- Hands-on experience with Amazon Web Services
+- Developing applications that can effortlessly handle an extreme scale
+- Software Development with NodeJS
+- REST API Development
+- Data Persistence (DynamoDB)
+- Microservices loose communication using Message Queues (SQS)
