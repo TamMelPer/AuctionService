@@ -3,6 +3,7 @@ import { uploadPictureToS3 } from '../lib/uploadPictureToS3';
 import middy from '@middy/core';
 import httpErrorHandler from '@middy/http-error-handler';
 import createError from 'http-errors';
+import cors from '@middy/http-cors';
 import { setAuctionPictureUrl } from "../lib/setAuctionPictureUrl";
 
 export async function uploadAuctionPicture(event) {
@@ -35,4 +36,5 @@ export async function uploadAuctionPicture(event) {
 
 export const handler = middy(uploadAuctionPicture)
   .use(httpErrorHandler())
+  .use(cors());
 
